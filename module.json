@@ -23,7 +23,12 @@
       "name": "cybermaps",
       "label": "cybermaps",
       "path": "packs/cybermaps",
-      "type": "Scene"
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ]
 }
