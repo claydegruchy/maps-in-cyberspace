@@ -1,0 +1,20 @@
+on:
+  push:
+    branchs:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: get version and store module
+        run: |
+          echo "version=$(cat module.json | jq -r .version)" >> $GITHUB_ENV
+          echo "DATA=$(cat module.json | jq -c | sed 's/"/\\"/g')" >> $GITHUB_ENV
+      - name: cleanup and zip
+        run: |
+          rm -rf .git .github
+          rm *.md
+          zip -r maps-in-cyberspace.zip .
+      - uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
