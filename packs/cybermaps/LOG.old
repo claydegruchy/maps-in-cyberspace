@@ -1,10 +1,8 @@
-2023/12/10-00:58:42.445880 7ffb7aa33b38 Log #30: 194 ops saved to Table #31 OK
-2023/12/10-00:58:42.446280 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/000030.log: OK
-2023/12/10-00:58:42.508832 7ffb7aa33b38 Log #15: 7936 ops saved to Table #32 OK
-2023/12/10-00:58:42.509116 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/000015.log: OK
-2023/12/10-00:58:42.514759 7ffb7aa33b38 Table #17: 16044 entries OK
-2023/12/10-00:58:42.515494 7ffb7aa33b38 Table #31: 194 entries OK
-2023/12/10-00:58:42.518087 7ffb7aa33b38 Table #32: 7936 entries OK
-2023/12/10-00:58:42.518535 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/MANIFEST-000029: OK
-2023/12/10-00:58:42.518668 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/MANIFEST-000002: OK
-2023/12/10-00:58:42.519655 7ffb7aa33b38 **** Repaired leveldb /data/Data/modules/maps-in-cyberspace/packs/cybermaps; recovered 3 files; 3093222 bytes. Some data may have been lost. ****
+2023/12/10-00:58:42.525760 7ffb7aa33b38 Delete type=3 #1
+2023/12/10-01:00:05.653077 7ff8f7b9bb38 Compacting 3@0 + 0@1 files
+2023/12/10-01:00:05.842243 7ff8f7b9bb38 Generated table #35@0: 16144 keys, 1539240 bytes
+2023/12/10-01:00:05.842295 7ff8f7b9bb38 Compacted 3@0 + 0@1 files => 1539240 bytes
+2023/12/10-01:00:05.843038 7ff8f7b9bb38 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/10-01:00:05.843530 7ff8f7b9bb38 Delete type=2 #32
+2023/12/10-01:00:05.844120 7ff8f7b9bb38 Delete type=2 #17
+2023/12/10-01:00:05.844690 7ff8f7b9bb38 Delete type=2 #31
