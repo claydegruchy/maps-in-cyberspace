@@ -1,8 +1,10 @@
-2023/12/09-19:29:39.614902 7fec39ffb640 Recovering log #23
-2023/12/09-19:29:39.620795 7fec39ffb640 Delete type=3 #21
-2023/12/09-19:29:39.620811 7fec39ffb640 Delete type=0 #23
-2023/12/09-19:30:20.912714 7fe99bfff640 Level-0 table #28: started
-2023/12/09-19:30:20.912725 7fe99bfff640 Level-0 table #28: 0 bytes OK
-2023/12/09-19:30:20.915278 7fe99bfff640 Delete type=0 #26
-2023/12/09-19:30:20.915352 7fe99bfff640 Manual compaction at level-0 from '!scenes!1JZEO9wyFmwhDIAx' @ 72057594037927935 : 1 .. '!scenes.walls!wJA2D6NYtC1S30DJ.xFovM7WE6TTftlZf' @ 0 : 0; will stop at (end)
-2023/12/09-19:30:20.920111 7fe99bfff640 Manual compaction at level-1 from '!scenes!1JZEO9wyFmwhDIAx' @ 72057594037927935 : 1 .. '!scenes.walls!wJA2D6NYtC1S30DJ.xFovM7WE6TTftlZf' @ 0 : 0; will stop at (end)
+2023/12/10-00:58:42.445880 7ffb7aa33b38 Log #30: 194 ops saved to Table #31 OK
+2023/12/10-00:58:42.446280 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/000030.log: OK
+2023/12/10-00:58:42.508832 7ffb7aa33b38 Log #15: 7936 ops saved to Table #32 OK
+2023/12/10-00:58:42.509116 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/000015.log: OK
+2023/12/10-00:58:42.514759 7ffb7aa33b38 Table #17: 16044 entries OK
+2023/12/10-00:58:42.515494 7ffb7aa33b38 Table #31: 194 entries OK
+2023/12/10-00:58:42.518087 7ffb7aa33b38 Table #32: 7936 entries OK
+2023/12/10-00:58:42.518535 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/MANIFEST-000029: OK
+2023/12/10-00:58:42.518668 7ffb7aa33b38 Archiving /data/Data/modules/maps-in-cyberspace/packs/cybermaps/MANIFEST-000002: OK
+2023/12/10-00:58:42.519655 7ffb7aa33b38 **** Repaired leveldb /data/Data/modules/maps-in-cyberspace/packs/cybermaps; recovered 3 files; 3093222 bytes. Some data may have been lost. ****
