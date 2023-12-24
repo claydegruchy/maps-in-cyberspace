@@ -60,11 +60,12 @@ if not os.path.exists('./parsed_data.csv'):
         data.at[i, 'parent'] = parent
         data.at[i, 'kind'] = kind
         data.at[i, 'id'] = id
-        print(type(v))
 
         # print(row['id'], row['parent'], row['kind'])
 
 # save the data to a new csv file
+    data['Values'] = data.apply(lambda x: print(x['Values']), axis=1)
+
     data.to_csv('parsed_data.csv', encoding='utf-8', index=False)
 data = pd.read_csv('parsed_data.csv')
 
